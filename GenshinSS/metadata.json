@@ -9,7 +9,7 @@
         "Category": "plasma-splashscreen",
         "Description": "Genshin Loadingscreen Look-a-like",
         "Id": "GenshinSS",
-        "License": "GPL-2.0-or-later",
+        "License": "MIT License",
         "Name": "GenshinSS",
         "ServiceTypes": [
             "Plasma/LookAndFeel"

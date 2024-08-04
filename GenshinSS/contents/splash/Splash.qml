@@ -8,11 +8,11 @@ Rectangle {
 
   property int messageIndex: 0
   property var messages: [
-    {"title": "Fatui", "text": "A Snezhnayan organization that has spread out all over the continent. They seem to be actively plotting something...", "image": "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/fatui.png"},
-    {"title": "A Vision", "text": "Rumor has it that when someone's wishes are extremely powerful, the gods will peer down upon him, and a Vision will appear...", "image": "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/vision.png"},
-    {"title": "Inazuma", "text": "The Raiden Shogun is the deity who rules over Inazuma. She possesses power sufficient to call down the thunderstorm that has sealed Inazuma off...", "image": "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/inazuma.png"},
-    {"title": "Navia", "text": "As the head of the Spina di Rosula, she is devoted to helping people of Fontaine, being likened as a 'big sister' who checks in on everyone.", "image": "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/navia.png"},
-    {"title": "Furina", "text": "The world is but a stage. Why cry, when you can laugh instead? For laughter is humanity's preserve. Laugh it all off, fret not, Let's just enjoy the moment.", "image": "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/furina.png"}
+    {"title": "Fatui", "text": "A Snezhnayan organization that has spread out all over the continent. They seem to be actively plotting something...", "image": "images/fatui.png"},
+    {"title": "A Vision", "text": "Rumor has it that when someone's wishes are extremely powerful, the gods will peer down upon him, and a Vision will appear...", "image": "images/vision.png"},
+    {"title": "Inazuma", "text": "The Raiden Shogun is the deity who rules over Inazuma. She possesses power sufficient to call down the thunderstorm that has sealed Inazuma off...", "image": "images/inazuma.png"},
+    {"title": "Navia", "text": "As the head of the Spina di Rosula, she is devoted to helping people of Fontaine, being likened as a 'big sister' who checks in on everyone.", "image": "images/navia.png"},
+    {"title": "Furina", "text": "The world is but a stage. Why cry, when you can laugh instead? For laughter is humanity's preserve. Laugh it all off, fret not, Let's just enjoy the moment.", "image": "images/furina.png"}
   ]
 
   Image {
@@ -26,7 +26,7 @@ Rectangle {
 
   AnimatedImage {
     id: gifImage
-    source: "file:///home/aagrimrautela/.local/share/plasma/look-and-feel/GenshinSS/contents/splash/images/loadin.gif"
+    source: "images/loadin.gif"
     anchors.bottom: parent.bottom
     anchors.horizontalCenter: parent.horizontalCenter
     anchors.bottomMargin: 20

@@ -4,6 +4,8 @@ genshin look-a-like interactive splash screen for kde plasma
 
 This is what will appear after you login to your account 
 
+Download from kde store: https://store.kde.org/p/2185912
+
 # How to Apply (from kde store):
 If you are using a kde desktop enviornment, all you have to do is go to the kde store and look for this file, download and apply from the kde splash GUI. Alternatively you can clone this repository and apply it manually.
 

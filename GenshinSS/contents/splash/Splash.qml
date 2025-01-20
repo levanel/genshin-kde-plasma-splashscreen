@@ -59,7 +59,7 @@ Rectangle {
       id: messageText
       text: messages[messageIndex].text
       font.bold: false
-      font.pointSize: 11
+      font.pointSize: 12
       color: "#D4BE90"
       wrapMode: Text.WordWrap
       horizontalAlignment: Text.AlignHCenter

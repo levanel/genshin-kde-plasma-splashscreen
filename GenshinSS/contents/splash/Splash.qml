@@ -51,9 +51,9 @@ Rectangle {
     Text {
       id: titleText
       text: messages[messageIndex].title
-      font.family: "zhcn.ttf"
       font.pointSize: 17
       font.bold: true
+      font.family: localFontRegular.name
       color: "#D4BE90"
       horizontalAlignment: Text.AlignHCenter
       wrapMode: Text.WordWrap

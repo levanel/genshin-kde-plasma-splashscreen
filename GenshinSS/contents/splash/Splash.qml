@@ -35,6 +35,11 @@ Rectangle {
     fillMode: Image.PreserveAspectFit
     playing: true
   }
+  
+  FontLoader {
+    id: localFontRegular
+    source: "zhcn.ttf"
+  }
 
   Column {
     anchors.bottom: parent.bottom
@@ -60,6 +65,7 @@ Rectangle {
       text: messages[messageIndex].text
       font.bold: false
       font.pointSize: 12
+      font.family: localFontRegular.name
       color: "#D4BE90"
       wrapMode: Text.WordWrap
       horizontalAlignment: Text.AlignHCenter
